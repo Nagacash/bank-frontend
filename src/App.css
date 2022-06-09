@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+html,
+body {
+  margin: 0;
+  background-color: #adb5bd;
+  font-family: 'Staatliches', cursive  !important; 
+ 
+}
+
+
+
+#App {
+  font-family: 'Staatliches';
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #070707;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #454737;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #e8ca07;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #0f0f0f;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.smalli {
+    padding-left: 0px;
+    height: 54px;
+    margin-bottom:150px;
+}
+.text{
+  text-align: center;
+  color:#000000;
+  font-size:70px;
+ 
+}
+
+.sidemargi{
+  margin: 0 19%;
+}
+
+.fonti{
+
+}
+
+.smallii {
+  padding-left: 20px;
+  height: 54px;
+  margin-top:150px;
+}

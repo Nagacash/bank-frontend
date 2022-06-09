@@ -1,11 +1,24 @@
 import React from 'react';
 import './App.css';
+import Dashboard from './components/Dashboard.jsx'
+import "bootstrap/dist/css/bootstrap.min.css";
+import SideBar from './components/Sidebar.jsx';
+
+
 
 const App = () => {
   return (
-    <main>
-     <h1>Welcome to React</h1>
-    </main>
+
+    <>
+      <SideBar  />
+      <div className="sidemargi">
+    
+<Dashboard className="sidemargi" />
+
+
+  </div>
+    </>
+  
   );
 }
 
